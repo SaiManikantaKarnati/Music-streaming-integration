@@ -1,0 +1,129 @@
+body {
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	background-color: #f8f8f8;
+	margin: 0;
+}
+
+header {
+	background-color: #1DB954;
+	color: #fff;
+	padding: 20px;
+	text-align: center;
+	margin: 0;
+	
+}
+
+header h1 {
+	font-size: 3rem;
+	margin-bottom: 10px;
+	margin-top: 0 ;
+}
+
+main {
+	max-width: 800px;
+	margin: 0 auto;
+	padding: 20px;
+	background-color: #fff;
+	border-radius: 10px;
+	box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+#search {
+	margin-bottom: 20px;
+}
+
+#search h2 {
+	font-size: 2rem;
+	margin-bottom: 10px;
+}
+
+#search label {
+	display: block;
+	margin-bottom: 10px;
+	font-size: 1.2rem;
+	color: #333;
+}
+
+#search input[type="text"] {
+	padding: 10px;
+	font-size: 1rem;
+	border: none;
+	border-radius: 5px;
+	box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+	width: 100%;
+}
+
+#search button[type="submit"] {
+	padding: 10px;
+	font-size: 1rem;
+	background-color: #1DB954;
+	color: #fff;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+	margin-top: 10px;
+	transition: background-color 0.2s ease-in-out;
+}
+
+#search button[type="submit"]:hover {
+	background-color: #0C8346;
+}
+
+#results {
+	margin-top: 20px;
+}
+
+#results h2 {
+	font-size: 2rem;
+	margin-bottom: 10px;
+	color: #333;
+}
+
+#results li {
+	list-style: none;
+	margin-bottom: 20px;
+	padding: 20px;
+	background-color: #fff;
+	border-radius: 10px;
+	box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+	display: flex;
+	align-items: center;
+	transition: box-shadow 0.2s ease-in-out;
+}
+
+#results li:hover {
+	box-shadow: 0 6px 12px rgba(0,0,0,0.2);
+}
+
+#results li img {
+  width: 100px;
+  height: 100px;
+  margin-right: 20px;
+  border-radius: 5px;
+  }
+  
+  #results li h3 {
+  font-size: 1.4rem;
+  margin-bottom: 5px;
+  }
+  
+  #results li p {
+  font-size: 1rem;
+  color: #666;
+  }
+  
+  #results-list {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+  footer {
+  background-color: #1DB954;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  }
